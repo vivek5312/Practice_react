@@ -1,0 +1,86 @@
+.pass{
+  width: 50%;
+  max-width:auto;
+  box-shadow:25px;
+  border-radius: 10px;
+  background-color: gray;
+  color: rgb(209, 137, 2);
+margin-left: 28rem;
+margin-top: 250px;
+
+
+}
+.title{
+  text-align: center;
+  color: white;
+font-size: 35px;
+}
+.inputdiv{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+}
+.input{
+  width: 30rem;
+  height: 2rem;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.btn{
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: blue;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.div{
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  
+}
+.rangediv{
+  display: flex;
+ justify-content: flex-start;
+  gap: 10px;
+}
+.inputRange{
+  cursor: pointer;
+  width: 200px;
+  margin-left: 25px;
+}
+.rangeName{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.number{
+  display: flex;
+  gap:10px;
+}
+.numberInput{
+
+
+}
+.numberLabel{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.char{
+  display: flex;
+  gap: 10px;
+
+}
+.charLabel{
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
